@@ -1,5 +1,7 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -149,6 +151,9 @@ body {
     }
     footer p{
         float: left;
+    }
+    .sub-section{
+        font-style: italic;
     }
 
 }

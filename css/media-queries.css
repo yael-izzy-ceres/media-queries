@@ -55,6 +55,24 @@ body {
 
     footer {
         margin-top: 4em;
+
+    }
+
+    .social-media-links li{
+        list-style: none;
+        display: inline-block;
+
+    }
+
+    .social-media-links a{
+        color: black;
+        padding-left: .5em;
+    }
+    .social-media-links ul{
+        float: right;
+    }
+    footer p{
+        float: left;
     }
 }
 
@@ -113,6 +131,24 @@ body {
     footer {
         padding-left: 1em;
         margin-top: 20em;
+        grid-area: 6/1/7/-1;;
+    }
+    .social-media-links li{
+        list-style: none;
+        display: inline-block;
+
+    }
+
+    .social-media-links a{
+        color: black;
+        padding-left: .5em;
+
+    }
+    .social-media-links ul{
+        float: right;
+    }
+    footer p{
+        float: left;
     }
 
 }
